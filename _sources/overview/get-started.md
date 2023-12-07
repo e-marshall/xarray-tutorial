@@ -1,4 +1,6 @@
-<img src="http://xarray.pydata.org/en/stable/_static/dataset-diagram-logo.png" align="right" width="30%">
+<img src="https://docs.xarray.dev/en/stable/_static/dataset-diagram-logo.png" align="right" width="30%">
+
+(get-started)=
 
 # Get Started
 
@@ -7,7 +9,7 @@ code, text, visualization, and exercises. You can either browse rendered version
 
 You have two options for executing notebooks:
 
-**1. On the Cloud:** Clicking [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/xarray-contrib/xarray-tutorial/HEAD?labpath=workshops/scipy2022/index.ipynb) will load a pre-configured Jupyter Lab interface with _all_ tutorial notebooks for you to run. _You have minimal computing resources and any changes you make will not be saved._ Any page with executable content also has a {octicon}`rocket;2em` icon in the upper right that will launch an interactive session for that particular page.
+**1. On the Cloud:** Clicking [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/xarray-contrib/xarray-tutorial/HEAD?labpath=overview/fundamental-path/index.ipynb) will load a pre-configured Jupyter Lab interface with _all_ tutorial notebooks for you to run. _You have minimal computing resources and any changes you make will not be saved._ Any page with executable content also has a {octicon}`rocket;2em` icon in the upper right that will launch an interactive session for that particular page.
 
 ```{warning}
 Be patient, it can take a few minutes for a server to become available on the Cloud (Mybinder.org)!
@@ -15,7 +17,7 @@ Be patient, it can take a few minutes for a server to become available on the Cl
 
 **1. On your computer:** Running tutorials on your computer requires some setup:
 
-We recommend using [`conda-lock`](https://conda-incubator.github.io/conda-lock/) to ensure a fully reproducible Python environment
+We recommend using [`conda-lock`](https://conda.github.io/conda-lock/) to ensure a fully reproducible Python environment
 
 ```
 git clone https://github.com/xarray-contrib/xarray-tutorial.git

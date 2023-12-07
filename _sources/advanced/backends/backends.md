@@ -2,14 +2,14 @@
 
 ## Introduction
 
-You can [read different type of files](http://xarray.pydata.org/en/stable/user-guide/io.html)) in `xr.open_dataset` by specifying the engine to be used:
+You can [read different type of files](https://docs.xarray.dev/en/stable/user-guide/io.html)) in `xr.open_dataset` by specifying the engine to be used:
 
 ```python
 import xarray as xr
 xr.open_dataset("my_file.grib" , engine="cfgrib")
 ```
 
-For each available egine there is an underlying backend, that reads the data and pack them in a dataset.
+For each available engine there is an underlying backend, that reads the data and pack them in a dataset.
 
 Xarray bundles several backends internally for the following formats:
 
@@ -22,7 +22,7 @@ Xarray bundles several backends internally for the following formats:
 External Backends that use the new backend API (xarray >= v0.18.0) that allows to add support for backend without any change to Xarray
 
 - [cfgrib](https://github.com/ecmwf/cfgrib) - GRIB
-- [tiledb](https://pythonrepo.com/repo/TileDB-Inc-TileDB-xarray) - TileDB
+- [tiledb](https://github.com/TileDB-Inc/TileDB-CF-Py) - TileDB
 - [rioxarray](https://corteva.github.io/rioxarray/stable/) - GeoTIFF, JPEG-2000, ESRI-hdr, etc (via GDAL)
 - [xarray-sentinel](https://github.com/bopen/xarray-sentinel) - Sentinel-1 SAFE
 - ...
